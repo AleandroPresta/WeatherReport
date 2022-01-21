@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons8-search.svg</file>
+    <file>icons8-search.svg</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+  <qresource prefix="weather">
+    <file>humidity.png</file>
+    <file>cloudy.png</file>
+    <file>pressure.png</file>
+    <file>rainy.png</file>
+    <file>storm (1).png</file>
+    <file>storm.png</file>
+    <file>sun.png</file>
+    <file>temperature.png</file>
+    <file>wind.png</file>
+  </qresource>
+</RCC>
