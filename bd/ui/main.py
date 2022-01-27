@@ -3,8 +3,10 @@ import platform
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PySide2 import QtCore, QtGui, QtWidgets
-from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
-from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
+from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect,
+                            QSize, QTime, QUrl, Qt, QEvent)
+from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence,
+                           QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
 from PySide2.QtWidgets import *
 
 # GUI FILE
@@ -61,7 +63,8 @@ class MainWindow(QMainWindow):
         # PAGES Weather Italy Clustering
         ########################################################################
 
-        self.ui.pushButton.clicked.connect( # A causa di un errore di nomenclatura questa variabile è rimasta pushButton
+        self.ui.pushButton.clicked.connect(
+            # A causa di un errore di nomenclatura questa variabile è rimasta pushButton
             lambda: self.ui.clustering_pages.setCurrentWidget(self.ui.clustering_table_page)
         )
 

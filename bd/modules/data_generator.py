@@ -43,6 +43,6 @@ def expand_dataset(dataset, freq):
         df[column].interpolate(method='polynomial', order=2, inplace=True,
                                limit_direction='backward')  # interpolazione polinomiale di secondo grado
 
-    df = df.round(2) # Eliminazione delle cifre superflue
+    df = df.round(2)  # Eliminazione delle cifre superflue
 
     return df
